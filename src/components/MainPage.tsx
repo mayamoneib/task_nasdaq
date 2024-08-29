@@ -52,7 +52,7 @@ const footerStyle: React.CSSProperties = {
 export default function Nasdaq() {
   // Ensure the function returns JSX
   return (
-    <Layout style={{length:"100vh", width:"100wh"}}>
+    <Layout style={layoutStyle}>
       <Header style={{ display: 'flex', alignItems: 'center' }}>
         <div className="demo-logo"/>
         <Image alt="Example" src={nasdaq} 
