@@ -1,9 +1,9 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import { Layout, Menu, theme } from 'antd';
+import { Layout, Menu } from 'antd';
 import nasdaq from "../app/images/nasdaq.jpg";
-import { Input, Space } from 'antd';
+import { Input } from 'antd';
 import type { GetProps } from 'antd';
 import Stocks from "../components/input";
 
@@ -64,11 +64,11 @@ export default function Nasdaq() {
           style={{ flex: 1 }}
         />
       </Header>
-      <Content style={{ contentStyle }}>
+      <Content style={ contentStyle }>
      
         <Stocks/>
       </Content>
-      <Footer style={{ footerStyle }}>
+      <Footer style={ footerStyle }>
         
       </Footer>
     </Layout>
